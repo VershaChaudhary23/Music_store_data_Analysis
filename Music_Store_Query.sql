@@ -1,5 +1,4 @@
-/*	Question Set 1 - Easy */
-
+/*1st Level*/
 /* Q1: Who is the senior most employee based on job title? */
 
 SELECT title, last_name, first_name 
@@ -44,10 +43,7 @@ GROUP BY customer.customer_id
 ORDER BY total_spending DESC
 LIMIT 1;
 
-
-
-
-/* Question Set 2 - Moderate */
+/* 2nd level*/
 
 /* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
@@ -105,7 +101,7 @@ ORDER BY miliseconds DESC;
 
 
 
-/* Question Set 3 - Advance */
+/* 3rd Level*/
 
 /* Q1: Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent */
 
